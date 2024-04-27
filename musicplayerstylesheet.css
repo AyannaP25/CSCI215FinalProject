@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+ 
+}
+
+.music-player{
+  margin-top: 100;
+}
+ 
+*{
+  background-color: #FFF;  
+  margin:0;
+ animation-name: rainbow; 
+ animation-duration: 20s; 
+ animation-timing-function: linear; 
+ animation-iteration-count: infinite; 
+
+}
+
+@keyframes rainbow {
+  0% { background: violet;  }
+  14.3% { background: red; }
+  28.6% { background: orange;    }
+  42.9% { background: yellow;}
+  57.2% { background: green;}
+  71.5% { background: blue;}
+  85.8% { background: indigo; }
+  100% {background: violet; }
+}
+
+ 
